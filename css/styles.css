@@ -563,14 +563,14 @@ ul {
 .checkbox-modal {
   margin-bottom: 24px;
 }
-.comment-label {
+.modal-label-checkbox {
   display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--customer-color);
 }
-.label-span {
+.checkbox-span {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
