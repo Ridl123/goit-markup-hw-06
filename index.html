@@ -442,7 +442,12 @@
           <p class="sub-title">Subscribe</p>
           <form class="form">
             <label class="label">
-              <input type="email" name="" placeholder="Email" class="input" />
+              <input
+                type="email"
+                name="subscription"
+                placeholder="Email"
+                class="input"
+              />
             </label>
             <button type="submit" class="sub-button">
               Subcribe
@@ -526,11 +531,14 @@
               name="user-privacy"
               class="checkbox visually-hidden"
             />
-            <label for="" id="user-privacy" class="comment-label"
-              >I accept the terms and conditions of the Privacy Policy
+            <label for="user-privacy" class="comment-label"
+              >I accept the terms and conditions of the
               <span class="label-span">
-                <svg width="10" height="8"></svg>
+                <svg width="10" height="8" class="checkbox-svg">
+                  <use href="./images/icons.svg#"></use>
+                </svg>
               </span>
+              <a href="" class="privacy-link">Privacy Policy</a>
             </label>
           </div>
           <button class="modal-send-button">Send</button>
