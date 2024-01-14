@@ -613,6 +613,11 @@ ul {
   cursor: pointer;
   fill: transparent;
 }
+input:checked + .modal-label-checkbox span:first-child {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 /* 
  {
   background-color: #404bbf;
