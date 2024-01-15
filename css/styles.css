@@ -353,6 +353,10 @@ ul {
   color: var(--logo-studio-footer);
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-top: 17.5px;
+}
+.footer-container-media {
+  margin-right: 80px;
 }
 .footer-social-media {
   font-weight: 500;
